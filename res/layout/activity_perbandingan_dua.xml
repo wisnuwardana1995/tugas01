@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+      <TextView 
+        android:id="@+id/tvket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Kedua"
+        />
+    
+    <EditText 
+        android:id="@+id/et1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Pertama"
+        android:layout_below="@+id/tvket"
+        />
+    
+    <EditText 
+        android:id="@+id/et2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Kedua"
+        android:layout_below="@+id/et1"
+        />
+    
+    <EditText 
+        android:id="@+id/et3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Ketiga"
+        android:layout_below="@+id/et2"
+        />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:text="Jumlah"
+         />
+    
+    <TextView 
+        android:id="@+id/tvhasil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini Merupakan Hasil"
+        android:layout_below="@+id/bt1"
+        />
+    
+
+</RelativeLayout>
